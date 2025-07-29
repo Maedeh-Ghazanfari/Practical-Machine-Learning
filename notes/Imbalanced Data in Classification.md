@@ -14,13 +14,13 @@ A model could just predict 0 always and still get 90% accuracy — but that’s 
 
 **Techniques to Handle Imbalanced Data**
 
-**1.Resampling the Dataset**
+**1. Resampling the Dataset**
 
 * Oversampling (increase minority class): Duplicate existing samples or generate synthetic ones (e.g., SMOTE).
 
 * Undersampling (reduce majority class): Randomly remove samples from the majority class.
 
-**2.Use Class Weights in the Model**
+**2. Use Class Weights in the Model**
 
 Many classifiers (like Random Forest, Logistic Regression, SVM) allow class_weight='balanced' to automatically adjust for imbalance.
 
