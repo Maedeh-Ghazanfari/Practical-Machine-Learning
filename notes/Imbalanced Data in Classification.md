@@ -19,7 +19,7 @@ A model could just predict 0 always and still get 90% accuracy — but that’s 
 **1. Resampling the Dataset**
 
 * Oversampling (increase minority class): Duplicate existing samples or generate synthetic ones (e.g., SMOTE).
-# SMOTE:
+## SMOTE:
 
 Unlike simple oversampling (duplicating existing points), SMOTE creates new, realistic data points by interpolating between existing minority class samples.
 
