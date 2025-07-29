@@ -21,6 +21,5 @@ A model could just predict 0 always and still get 90% accuracy — but that’s 
 * Undersampling (reduce majority class): Randomly remove samples from the majority class.
 
 **2. Use Class Weights in the Model**
-
-Many classifiers (like Random Forest, Logistic Regression, SVM) allow class_weight='balanced' to automatically adjust for imbalance.
+Many classifiers (like Random Forest, Logistic Regression, SVM) allow class_weight='balanced' to automatically adjust for imbalance. It tells model, it's okay if you get majority class wrong sometimes, but it's more costly to misclassify the rare classes.
 
