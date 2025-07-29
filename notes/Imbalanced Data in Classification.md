@@ -1,6 +1,8 @@
+# 🧪 Handling Imbalanced Classes in Machine Learning
+
 In classification tasks, imbalanced datasets occur when one class significantly outnumbers the others. This can lead to a biased model that performs poorly on the minority class, even if overall accuracy seems high.
 
-**Why It Matters?**
+## **Why It Matters?**
 
 When the target classes are imbalanced, a model may Learn always to predict the majority class. Shows high accuracy but performs poorly on minority class detection. Fail in real-world applications such as fraud detection, Medical diagnosis, and Spam filtering.
 
@@ -12,7 +14,7 @@ When the target classes are imbalanced, a model may Learn always to predict the 
 
 A model could just predict 0 always and still get 90% accuracy — but that’s useless.
 
-**Techniques to Handle Imbalanced Data**
+## **Techniques to Handle Imbalanced Data**
 
 **1. Resampling the Dataset**
 
@@ -20,7 +22,8 @@ A model could just predict 0 always and still get 90% accuracy — but that’s 
 
 * Undersampling (reduce majority class): Randomly remove samples from the majority class.
 
-**2. Use Class Weights in the Model**
+## **2. Use Class Weights in the Model**
 
-Many classifiers (like Random Forest, Logistic Regression, SVM) allow class_weight='balanced' to automatically adjust for imbalance. It tells model, it's okay if you get majority class wrong sometimes, but it's more costly to misclassify the rare classes.
+Many classifiers (like Random Forest, Logistic Regression, SVM) allow class_weight='balanced' to automatically adjust for imbalance. It tells the model, it's okay if you get the majority class wrong sometimes, but it's more costly to misclassify the rare classes. During model training, the **loss function** considers these weights.
+Errors on rare classes are penalized more, so the model learns to focus on them too.
 
