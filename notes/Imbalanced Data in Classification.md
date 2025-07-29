@@ -1,6 +1,7 @@
 In classification tasks, imbalanced datasets occur when one class significantly outnumbers the others. This can lead to a biased model that performs poorly on the minority class, even if overall accuracy seems high.
 
-**Why It Matters**
+**Why It Matters?**
+
 When the target classes are imbalanced, a model may Learn always to predict the majority class. Shows high accuracy but performs poorly on minority class detection. Fail in real-world applications such as fraud detection, Medical diagnosis, and Spam filtering.
 
 **Example of Imbalance**
@@ -15,13 +16,9 @@ A model could just predict 0 always and still get 90% accuracy — but that’s 
 
 **1.Resampling the Dataset**
 
-* Oversampling (increase minority class):
+* Oversampling (increase minority class): Duplicate existing samples or generate synthetic ones (e.g., SMOTE).
 
-Duplicate existing samples or generate synthetic ones (e.g., SMOTE).
-
-* Undersampling (reduce majority class):
-
-Randomly remove samples from the majority class.
+* Undersampling (reduce majority class): Randomly remove samples from the majority class.
 
 **2.Use Class Weights in the Model**
 
