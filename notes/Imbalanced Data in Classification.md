@@ -22,7 +22,7 @@ A model could just predict 0 always and still get 90% accuracy — but that’s 
 
 * Undersampling (reduce majority class): Randomly remove samples from the majority class.
 
-## **2. Use Class Weights in the Model**
+ **2. Use Class Weights in the Model**
 
 Many classifiers (like Random Forest, Logistic Regression, SVM) allow class_weight='balanced' to automatically adjust for imbalance. It tells the model, it's okay if you get the majority class wrong sometimes, but it's more costly to misclassify the rare classes. During model training, the **loss function** considers these weights.
 Errors on rare classes are penalized more, so the model learns to focus on them too.
