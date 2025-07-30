@@ -1,0 +1,12 @@
+# Hard Margin vs. Soft Margin in SVM
+
+Support Vector Machines (SVM) aim to find the best hyperplane that separates data into classes. Depending on the nature of the dataset, we choose between a **Hard Margin** or a **Soft Margin** approach.
+
+---
+
+## Hard Margin SVM
+
+### Definition
+Hard Margin SVM tries to perfectly separate the data with a maximum-margin hyperplane and **no tolerance for errors**.
+
+### Constraint
