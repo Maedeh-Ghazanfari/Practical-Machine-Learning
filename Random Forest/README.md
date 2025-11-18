@@ -4,20 +4,20 @@ This project explores the use of the Random Forest algorithm for predicting wine
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 - **Source**: Wine Quality dataset from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/wine+quality)
 - **Target variable**: `quality` (integer score from 0 to 10)
 
 ---
 
-## 📌 Objective
+##  Objective
 
 To build a Random Forest model capable of predicting wine quality, taking into account data imbalance, outliers, and hyperparameter tuning.
 
 ---
 
-## ⚙️ Steps Implemented
+##  Steps Implemented
 
 1. **Data Preprocessing**
    - Removed the `quality` column to isolate features
@@ -51,7 +51,7 @@ To build a Random Forest model capable of predicting wine quality, taking into a
 
 ---
 
-## 🧠 Observations
+##  Observations
 
 - Despite tuning and outlier removal, the model still shows signs of **overfitting**
 - **Class imbalance** and **limited signal** in features could be major causes
@@ -59,7 +59,7 @@ To build a Random Forest model capable of predicting wine quality, taking into a
 
 ---
 
-## ❗ Challenges
+##  Challenges
 
 - **Severe class imbalance**: Some quality classes have very few samples
 - **Model bias**: Classifier still favors majority classes
@@ -67,6 +67,6 @@ To build a Random Forest model capable of predicting wine quality, taking into a
 
 ---
 
-## 🔄 Next Steps
+##  Next Steps
 
 - Try **XGBoos**
