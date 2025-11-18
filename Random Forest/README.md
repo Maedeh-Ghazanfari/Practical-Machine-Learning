@@ -1,4 +1,4 @@
-# 🟢 Random Forest Classifier – Wine Quality Prediction
+#  Random Forest Classifier – Wine Quality Prediction
 
 This project explores the use of the Random Forest algorithm for predicting wine quality. It includes preprocessing steps, handling class imbalance, outlier detection, hyperparameter tuning, and thorough model evaluation.
 
